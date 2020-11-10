@@ -1,10 +1,14 @@
-# Gmail Cleanup
+# Gmail Scrub Inbox
 
 ## Overview
 
 Let's say you don't want to pay for an email marketing platform. Instead, you write a Python script to send emails to your distribution lists.
 
-How do you process unsubscribe requests and failed deliveries? With <b>gmail_cleanup</b>!
+How do you process unsubscribe requests and failed deliveries? With <b>Gmail Scrub Inbox</b>!
+
+## Features
+
+* scrub Gmail inbox for specific labels and log the relevant emails in a Google sheet
 
 ## Installing / Getting Started
 
@@ -42,10 +46,6 @@ for dict_msg in messages_list['messages']: # list of dicts {'id': id}
 
 ### Google Sheets
 1. Set up a Google Sheet and share it with the Python script via the email in the credentials JSON (see links below).
-
-## Features
-
-* scrub Gmail inbox for specific labels and log the relevant emails in a Google sheet
 
 ## Helpful Links
 
