@@ -1,0 +1,14 @@
+# byte compiled
+__pycache__/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# local testing
+/backup
+/debug.log
+quickstart.py
+/output
+/config
+/secrets.py
